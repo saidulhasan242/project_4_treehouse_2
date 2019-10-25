@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-bg{
+    width: 100%;
+    background-color: #5dbaff;
+    padding-bottom: 15px;
+    box-shadow: 2px -2px 11px 0px black;
+}
+.background {
+    background-image: url(../images/bg.jpg);
+    height : 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+nav ul{ text-align: center; }
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+.logo{ width: 140px; }
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    padding: 0px 20px;
+    transition-duration: .3s;
+}
+nav ul li a:hover{ color: #000 }
+.container{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.signupbox{
+    float: right;
+    width: 45%;
+    padding: 0px 20px;
+}
+.form{
+    width: 45%;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+.form h2{
+    color: #eee;
+}
+.form p{
+    color: #eee;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.form h4{
+    color: #eee;
+}
+.form form{}
+.form form input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin-bottom: 9px;
+    margin-top: 5px;
+}
+.form p a{ 
+    font-weight: bold;
+    text-decoration: none;
+    color : #fff;
+    margin-left: 10px;
+ }
+ .form form input[type="submit"]{
+    width: 30%;
+ }
+ .btm{
+    
+font-size: 12px;
+ }
+h4{
+    color: #eee;
+    margin-top: 30px;
+}
